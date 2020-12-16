@@ -1,32 +1,28 @@
-import "./App.css";
+import "./Btn.css";
 import React, { useState } from "react";
-import Button from "./components/Button/Button.jsx";
-import Btn from "./components/Btn/Btn";
 
 const data = ["42", "43", "44"];
 
-function App() {
+function Btn() {
   const [active, setActive] = useState("");
   function handleClick({ target }) {
     setActive(target.id);
   }
 
   const buttonElement = data.map((item, i) => (
-    <Button
-      handleClick={handleClick}
+    <button
+      onClick={handleClick}
       active={active}
       text={item}
       key={i}
       id={item}
-    />
+      className={active === item ? "Btn" : ""}
+    >
+      {item}{" "}
+    </button>
   ));
 
-  return (
-    <>
-      <div className="App">{buttonElement}</div>
-      <Btn />
-    </>
-  );
+  return <div className="Btns">{buttonElement}</div>;
 }
 
-export default App;
+export default Btn;

@@ -1,0 +1,9 @@
+.Btns {
+  display: flex;
+  justify-content: center;
+
+}
+
+.Btn {
+background-color: green;
+}
