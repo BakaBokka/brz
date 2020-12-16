@@ -1,15 +1,16 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link:
+https://bakabokka.github.io/brz/
 
-## Available Scripts
 
-In the project directory, you can run:
+****
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### How to try?
+* Clone repo: `git clone` https://github.com/BakaBokka/brz.git
+* Set dependencies: `npm i`
+* Create production-build: `npm run build`
+* Runs the app in the development mode on the local server: `npm start`
+* Deploy production-build on GitHub Pages: `npm run deploy`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+****
