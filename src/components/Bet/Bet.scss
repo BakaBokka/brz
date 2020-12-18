@@ -1,0 +1,126 @@
+$Primary50: #738c99;
+$Primary90: #2a414c;
+$Okay40: #94e107;
+.Bet {
+  max-width: 100%;
+  width: 100%;
+  margin-right: 8px;
+  border-bottom: 1px solid $Primary90;
+
+  &__content {
+    max-width: 100%;
+    width: 100%;
+    padding: 8px 0 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    &_won {
+      cursor: pointer;
+    }
+  }
+
+  &__conditions-wrap {
+    display: flex;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  &__id {
+    margin: 0;
+
+    text-align: left;
+    color: #fff;
+
+    &_won {
+      color: $Okay40;
+    }
+  }
+
+  &__options {
+    margin: 0;
+    display: flex;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    color: #fff;
+  }
+
+  &__option {
+    margin: 0 0 0 3px;
+  }
+
+  &__option-divider {
+    margin: 0 0 0 3px;
+
+    &_type_normal {
+      font-weight: normal;
+      color: #b8ccd9;
+    }
+  }
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  &__conditions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* Primary 50 */
+
+    color: $Primary50;
+
+    &_won {
+      color: $Okay40;
+    }
+  }
+
+  &__time {
+    margin: 0 16px 0 0;
+    color: $Primary50;
+    text-align: left;
+
+    &_won {
+      color: $Okay40;
+    }
+  }
+
+  &__summs {
+    display: flex;
+  }
+
+  &__summ {
+    margin: 0 8px 0 0;
+  }
+
+  &__payment {
+    margin: 0;
+  }
+
+  &__coef-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: $Primary50;
+    font-size: 12px;
+    line-height: 16px;
+
+    &_won {
+      color: $Okay40;
+    }
+  }
+  &__coef {
+    margin: 0;
+  }
+}

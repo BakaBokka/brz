@@ -1,0 +1,52 @@
+$Primary30: #b8ccd9;
+$Primary50: #738c99;
+
+.BetSpoiler {
+  font-size: 12px;
+  line-height: 12px;
+  color: $Primary30;
+  margin-bottom: 8px;
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__wrap {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__time {
+    margin: 0;
+    color: $Primary50;
+  }
+
+  &__bet {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 56px 0 20px;
+  }
+  &__status {
+    margin: 0;
+  }
+  &__summ {
+    margin: 0;
+  }
+
+  &__coef-wrap {
+    display: flex;
+  }
+
+  &__coef {
+    margin: 0 5px 0;
+  }
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+  }
+}

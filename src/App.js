@@ -1,7 +1,8 @@
-import "./App.css";
+import "./App.scss";
 import React, { useState } from "react";
 import Button from "./components/Button/Button.jsx";
 import Btn from "./components/Btn/Btn";
+import BetLog from "./components/BetLog/BetLog";
 
 const data = ["42", "43", "44"];
 
@@ -22,10 +23,11 @@ function App() {
   ));
 
   return (
-    <>
-      <div className="App">{buttonElement}</div>
+    <div className="App">
+     <div>{buttonElement}</div>
       <Btn />
-    </>
+      <BetLog />
+    </div>
   );
 }
 

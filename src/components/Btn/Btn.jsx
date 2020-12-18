@@ -1,4 +1,4 @@
-import "./Btn.css";
+import "./Btn.scss";
 import React, { useState } from "react";
 
 const data = ["42", "43", "44"];
@@ -16,7 +16,7 @@ function Btn() {
       text={item}
       key={i}
       id={item}
-      className={active === item ? "Btn" : ""}
+      className={active === item ? "Btns__button" : ""}
     >
       {item}{" "}
     </button>

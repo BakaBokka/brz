@@ -1,4 +1,4 @@
-import "./Button.css";
+import "./Button.scss";
 function Button({ handleClick, active, text, id }) {
   return (
     <button
