@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/brz/static/css/main.39a157e8.chunk.css",
-    "main.js": "/brz/static/js/main.8ef9b211.chunk.js",
-    "main.js.map": "/brz/static/js/main.8ef9b211.chunk.js.map",
-    "runtime-main.js": "/brz/static/js/runtime-main.003998ce.js",
-    "runtime-main.js.map": "/brz/static/js/runtime-main.003998ce.js.map",
-    "static/js/2.ba3ddc23.chunk.js": "/brz/static/js/2.ba3ddc23.chunk.js",
-    "static/js/2.ba3ddc23.chunk.js.map": "/brz/static/js/2.ba3ddc23.chunk.js.map",
-    "static/js/3.b3d85767.chunk.js": "/brz/static/js/3.b3d85767.chunk.js",
-    "static/js/3.b3d85767.chunk.js.map": "/brz/static/js/3.b3d85767.chunk.js.map",
+    "main.css": "/brz/static/css/main.b3166723.chunk.css",
+    "main.js": "/brz/static/js/main.f6b0dc90.chunk.js",
+    "main.js.map": "/brz/static/js/main.f6b0dc90.chunk.js.map",
+    "runtime-main.js": "/brz/static/js/runtime-main.d74dfff7.js",
+    "runtime-main.js.map": "/brz/static/js/runtime-main.d74dfff7.js.map",
+    "static/js/2.5b923b6c.chunk.js": "/brz/static/js/2.5b923b6c.chunk.js",
+    "static/js/2.5b923b6c.chunk.js.map": "/brz/static/js/2.5b923b6c.chunk.js.map",
+    "static/js/3.7c64c54c.chunk.js": "/brz/static/js/3.7c64c54c.chunk.js",
+    "static/js/3.7c64c54c.chunk.js.map": "/brz/static/js/3.7c64c54c.chunk.js.map",
     "index.html": "/brz/index.html",
-    "static/css/main.39a157e8.chunk.css.map": "/brz/static/css/main.39a157e8.chunk.css.map",
-    "static/js/2.ba3ddc23.chunk.js.LICENSE.txt": "/brz/static/js/2.ba3ddc23.chunk.js.LICENSE.txt"
+    "static/css/main.b3166723.chunk.css.map": "/brz/static/css/main.b3166723.chunk.css.map",
+    "static/js/2.5b923b6c.chunk.js.LICENSE.txt": "/brz/static/js/2.5b923b6c.chunk.js.LICENSE.txt",
+    "static/media/back.1ffc53de.svg": "/brz/static/media/back.1ffc53de.svg",
+    "static/media/brick.2bfe616a.svg": "/brz/static/media/brick.2bfe616a.svg",
+    "static/media/check.6e78231e.svg": "/brz/static/media/check.6e78231e.svg",
+    "static/media/clock.6170a73b.svg": "/brz/static/media/clock.6170a73b.svg",
+    "static/media/coins.f7743479.svg": "/brz/static/media/coins.f7743479.svg",
+    "static/media/coins_white.d83bffdd.svg": "/brz/static/media/coins_white.d83bffdd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.003998ce.js",
-    "static/js/2.ba3ddc23.chunk.js",
-    "static/css/main.39a157e8.chunk.css",
-    "static/js/main.8ef9b211.chunk.js"
+    "static/js/runtime-main.d74dfff7.js",
+    "static/js/2.5b923b6c.chunk.js",
+    "static/css/main.b3166723.chunk.css",
+    "static/js/main.f6b0dc90.chunk.js"
   ]
 }
